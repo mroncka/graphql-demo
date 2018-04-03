@@ -3,4 +3,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="text_add_post">Add post</string>
+    <string name="text_name">%s %s</string>
+    <string name="text_refresh">Refresh posts</string>
 </resources>

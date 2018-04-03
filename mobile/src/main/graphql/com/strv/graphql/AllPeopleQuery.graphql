@@ -1,0 +1,10 @@
+# TODO: Add all people query
+query AllPeopleQuery {
+  allPersons {
+    firstName
+    lastName
+    birthDate
+    #deathDate
+    imageUrl
+  }
+}

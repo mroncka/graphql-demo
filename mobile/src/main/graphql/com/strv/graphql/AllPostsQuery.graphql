@@ -1,0 +1,16 @@
+fragment PostInfo on Post {
+   id
+    text
+    imageUrl
+    author
+#    upvotedBy {
+#      id
+#      name
+#    }
+ }
+
+query AllPosts {
+  allPosts {
+      ... PostInfo
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_add"
+        android:title="@string/text_add_post"
+        android:icon="@drawable/ic_add_black_24dp" />
+    <item
+        android:id="@+id/menu_refresh"
+        android:title="@string/text_refresh"
+        android:icon="@drawable/ic_refresh_black_24dp" />
+
+</menu>

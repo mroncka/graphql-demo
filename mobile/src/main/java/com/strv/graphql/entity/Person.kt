@@ -7,7 +7,9 @@ package com.strv.graphql.entity
  */
 data class Person(
         val id: Long,
-        val name: String) {
+        val name: String,
+        val birthDate: String,
+        val imageUrl: String) {
 
     override fun equals(other: Any?): Boolean = when (other) {
         is Person -> other.id == this.id

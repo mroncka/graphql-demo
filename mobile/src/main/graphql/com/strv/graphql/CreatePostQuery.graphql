@@ -1,0 +1,7 @@
+mutation CreatePost($text: String!, $author: String!, $imageUrl: String) {
+  createPost(text: $text, author: $author, imageUrl: $imageUrl) {
+    ... PostInfo
+#    author
+#    text
+  }
+}

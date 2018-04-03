@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="view"
+            type="com.strv.graphql.ui.PostsView" />
+        <variable
+            name="viewModel"
+            type="com.strv.graphql.ui.PostsViewModel" />
+    </data>
+
+    <android.support.v7.widget.RecyclerView
+        tools:listitem="@layout/item_person"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:items="@{viewModel.posts}"
+        app:itemBinding="@{view.postItemBinding}"
+        app:layoutManager="android.support.v7.widget.GridLayoutManager" />
+
+</layout>
